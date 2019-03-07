@@ -1,0 +1,74 @@
+[
+    {
+        "name": "First",
+        "description": "First location description",
+        "coordinate": {
+            "latitude": 51.767,
+            "longitude": 0.087
+        }
+    },
+    {
+        "name": "Second",
+        "description": "Second location description",
+        "coordinate": {
+            "latitude": 51.775,
+            "longitude": 0.089
+        }
+    },
+    {
+        "name": "Third",
+        "description": "Third location description",
+        "coordinate": {
+            "latitude": 51.783,
+            "longitude": 0.091
+        }
+    },
+    {
+        "name": "Fourth",
+        "description": "Fourth location description",
+        "coordinate": {
+            "latitude": 51.759,
+            "longitude": 0.085
+        }
+    },
+    {
+        "name": "Fifth",
+        "description": "Fifth location description",
+        "coordinate": {
+            "latitude": 51.771,
+            "longitude": 0.103
+        }
+    },
+    {
+        "name": "Sixth",
+        "description": "Sixth location description",
+        "coordinate": {
+            "latitude": 51.764,
+            "longitude": 0.064
+        }
+    },
+    {
+        "name": "Seventh",
+        "description": "Seventh location description",
+        "coordinate": {
+            "latitude": 51.791,
+            "longitude": 0.075
+        }
+    },
+    {
+        "name": "Eighth",
+        "description": "Eighth location description",
+        "coordinate": {
+            "latitude": 51.810,
+            "longitude": 0.044
+        }
+    },
+    {
+        "name": "Ninth",
+        "description": "Ninth location description",
+        "coordinate": {
+            "latitude": 51.761,
+            "longitude": 0.085
+        }
+    }
+]
