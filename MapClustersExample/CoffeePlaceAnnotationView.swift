@@ -22,6 +22,13 @@ class CoffeePlaceAnnotation: NSObject, MKAnnotation {
             longitude: coffeePlace.coordinate.longitude
         )
     }
+    
+    init(location: Location) {
+        coordinate = CLLocationCoordinate2D(
+            latitude: location.latitude,
+            longitude: location.longitude
+        )
+    }
 }
 
 class CoffeePlaceAnnotationView: MKMarkerAnnotationView {

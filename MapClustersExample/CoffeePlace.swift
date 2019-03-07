@@ -18,3 +18,8 @@ struct CoffeePlace: Decodable {
     var description: String
     var coordinate: Coordinate
 }
+
+struct Location: Decodable {
+    var latitude: Double
+    var longitude: Double
+}
