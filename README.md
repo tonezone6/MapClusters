@@ -1,2 +1,2 @@
 # MapKitClustering
-![MapKitClustering](mapKitClustering.png)
+![MapKitClustering](mapClustersExample.png)
