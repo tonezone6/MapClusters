@@ -32,10 +32,10 @@ class CoffeeView: MKMarkerAnnotationView {
     override var annotation: MKAnnotation? {
         willSet {
             guard newValue is CoffeeAnnotation else { return }
-            clusteringIdentifier = "coffee"
-            displayPriority = .defaultHigh
             markerTintColor = .purple
             glyphImage = UIImage(named: "coffee")
+            clusteringIdentifier = "coffee"
+            displayPriority = .defaultHigh
             // canShowCallout = true
             // rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
         }
