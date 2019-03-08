@@ -14,8 +14,8 @@
 		FA444E9622312B5B002953B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA444E9422312B5B002953B8 /* LaunchScreen.storyboard */; };
 		FA444E9E22312B7F002953B8 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = FA444E9D22312B7F002953B8 /* locations.json */; };
 		FA444EA022312D79002953B8 /* Bundle+Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA444E9F22312D79002953B8 /* Bundle+Json.swift */; };
-		FA444EA222312D89002953B8 /* CoffeePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA444EA122312D89002953B8 /* CoffeePlace.swift */; };
-		FAA2935C2231796E000A75EC /* CoffeePlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2935B2231796E000A75EC /* CoffeePlaceAnnotationView.swift */; };
+		FA444EA222312D89002953B8 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA444EA122312D89002953B8 /* Coffee.swift */; };
+		FAA2935C2231796E000A75EC /* CoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2935B2231796E000A75EC /* CoffeeView.swift */; };
 		FAA2936022318813000A75EC /* locations2.json in Resources */ = {isa = PBXBuildFile; fileRef = FAA2935F22318813000A75EC /* locations2.json */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +29,9 @@
 		FA444E9722312B5B002953B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA444E9D22312B7F002953B8 /* locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		FA444E9F22312D79002953B8 /* Bundle+Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Json.swift"; sourceTree = "<group>"; };
-		FA444EA122312D89002953B8 /* CoffeePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeePlace.swift; sourceTree = "<group>"; };
-		FAA2935B2231796E000A75EC /* CoffeePlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeePlaceAnnotationView.swift; sourceTree = "<group>"; };
-		FAA2935F22318813000A75EC /* locations2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations2.json; path = ../../../Desktop/locations2.json; sourceTree = "<group>"; };
+		FA444EA122312D89002953B8 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		FAA2935B2231796E000A75EC /* CoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeView.swift; sourceTree = "<group>"; };
+		FAA2935F22318813000A75EC /* locations2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +66,8 @@
 			children = (
 				FA444E8B22312B5A002953B8 /* AppDelegate.swift */,
 				FA444E9F22312D79002953B8 /* Bundle+Json.swift */,
-				FA444EA122312D89002953B8 /* CoffeePlace.swift */,
-				FAA2935B2231796E000A75EC /* CoffeePlaceAnnotationView.swift */,
+				FA444EA122312D89002953B8 /* Coffee.swift */,
+				FAA2935B2231796E000A75EC /* CoffeeView.swift */,
 				FA444E8D22312B5A002953B8 /* ViewController.swift */,
 				FA444E9D22312B7F002953B8 /* locations.json */,
 				FAA2935F22318813000A75EC /* locations2.json */,
@@ -152,10 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA2935C2231796E000A75EC /* CoffeePlaceAnnotationView.swift in Sources */,
+				FAA2935C2231796E000A75EC /* CoffeeView.swift in Sources */,
 				FA444E8E22312B5A002953B8 /* ViewController.swift in Sources */,
 				FA444EA022312D79002953B8 /* Bundle+Json.swift in Sources */,
-				FA444EA222312D89002953B8 /* CoffeePlace.swift in Sources */,
+				FA444EA222312D89002953B8 /* Coffee.swift in Sources */,
 				FA444E8C22312B5A002953B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
