@@ -13,7 +13,7 @@ struct Coordinate: Decodable {
     var longitude: Double
 }
 
-struct Coffee: Decodable {
+struct Location: Decodable {
     var name: String
     var description: String
     var coordinate: Coordinate

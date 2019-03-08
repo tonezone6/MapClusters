@@ -22,8 +22,8 @@ class ViewController: UIViewController {
     }
     
     func showCoffee() {
-        Bundle.main.decode([Coffee].self, from: "locations.json").forEach {
-            mapView.addAnnotation(CoffeeAnnotation(coffee: $0))
+        Bundle.main.decode([Location].self, from: "locations.json").forEach {
+            mapView.addAnnotation(Coffee(location: $0))
         }
         mapView.showAnnotations(mapView.annotations, animated: false)
     }

@@ -8,21 +8,21 @@
 
 import MapKit
 
-class CoffeeAnnotation: MKPointAnnotation {
+class Coffee: MKPointAnnotation {
     
 //    enum CoffeeType {
 //        case origin, regular
 //    }
 //    var type: CoffeeType
     
-    convenience init(coffee: Coffee) {
+    convenience init(location: Location) {
         self.init()
-        self.title = coffee.name
-        self.subtitle = coffee.description
+        self.title = location.name
+        self.subtitle = location.description
         // self.type = coffee.type
         self.coordinate = CLLocationCoordinate2D(
-            latitude: coffee.coordinate.latitude,
-            longitude: coffee.coordinate.longitude
+            latitude: location.coordinate.latitude,
+            longitude: location.coordinate.longitude
         )
     }
 }
@@ -31,7 +31,7 @@ class CoffeeView: MKMarkerAnnotationView {
     
     override var annotation: MKAnnotation? {
         willSet {
-            guard newValue is CoffeeAnnotation else { return }
+            guard newValue is Coffee else { return }
             markerTintColor = .purple
             glyphImage = UIImage(named: "coffee")
             clusteringIdentifier = "coffee"
