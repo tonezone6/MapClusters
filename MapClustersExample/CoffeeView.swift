@@ -32,7 +32,7 @@ class CoffeeView: MKMarkerAnnotationView {
     override var annotation: MKAnnotation? {
         willSet {
             guard newValue is CoffeeAnnotation else { return }
-            clusteringIdentifier = "bike"
+            clusteringIdentifier = "coffee"
             displayPriority = .defaultHigh
             markerTintColor = .purple
             glyphImage = UIImage(named: "coffee")
